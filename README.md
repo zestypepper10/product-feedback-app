@@ -14,7 +14,7 @@ is live on Netlify._
 
 ## 🖼️ Screenshots
 
-Screenshot coming soon.
+<img width="2494" height="1340" alt="image" src="https://github.com/user-attachments/assets/746c5ff3-e120-4588-91bf-cdab5dc1d943" />
 
 ## ✨ Features
 

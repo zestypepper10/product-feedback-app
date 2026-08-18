@@ -14,7 +14,7 @@ is live on Netlify._
 
 ## 🖼️ Screenshots
 
-_Screenshot coming soon — will be added directly through GitHub's editor._
+Screenshot coming soon.
 
 ## ✨ Features
 
@@ -79,17 +79,29 @@ CREATE TABLE suggestions (
 
 ## 💭 Reflections
 
-_What I learned:_ ___________
+_What I learned:_ Directing an AI agent through a full-stack build is a different skill than
+writing the code by hand — the PRD and the milestone breakdown do a lot of the work, and being
+specific about what "done" looks like (view/filter/empty-state/validation, exact endpoints, exact
+categories) mattered more than I expected. I also learned firsthand why secrets shouldn't be
+committed: partway through the security audit, the Neon DB password had already been auto-rotated
+because the credential had been sitting in the public repo's git history.
 
-_What I'm proud of:_ ___________
+_What I'm proud of:_ Catching that credential exposure and fixing it properly (env vars, restricted
+CORS, updated `.gitignore`) instead of just patching the symptom. Also that the bug log from
+Milestone 5 (hover-state CSS bug, a stack-trace leak on malformed input, collapsed line breaks)
+turned into three clean, verified fixes across Milestones 6 and 7.
 
-_What challenged me:_ ___________
+_What challenged me:_ The frontend hadn't actually been built yet when I got to the "full testing"
+milestone — there was nothing to click through. That meant catching up on Milestone 4's work before
+I could even start testing, which was a good reminder to verify each milestone's output before
+moving on to the next one.
 
 Future ideas for how I'd continue building this project:
 
-1.
-2.
-3.
+1. Let users upvote suggestions from the UI (the `upvotes` column already exists — just needs a
+   `PATCH`/`POST` endpoint and a clickable button)
+2. Add comments on suggestions
+3. Sort suggestions by most/least upvotes, and support filtering by more than one category at once
 
 ## 🤖 AI Usage Log
 

@@ -63,7 +63,9 @@ a {
 .page-header__eyebrow {
   margin: 0 0 0.25rem;
   font-size: 0.8rem;
-  opacity: 0.75;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .page-header h1 {
@@ -98,7 +100,8 @@ a {
   background: #d6d9f4;
 }
 
-.category-filter__button--active {
+.category-filter__button--active,
+.category-filter__button--active:hover {
   background: #3a4374;
   color: #fff;
 }
@@ -157,6 +160,7 @@ a {
   margin: 0 0 0.6rem;
   color: #647087;
   font-size: 0.9rem;
+  white-space: pre-line;
 }
 
 .suggestion-card__category {

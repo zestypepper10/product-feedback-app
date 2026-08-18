@@ -1,13 +1,14 @@
 import express from "express";
 import cors from "cors";
 import { pool } from "./db.js";
+import config from "./config.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 const ALLOWED_CATEGORIES = ["UI", "UX", "Enhancement", "Bug", "Feature"];
 
-app.use(cors());
+app.use(cors({ origin: config.frontendOrigins }));
 app.use(express.json());
 
 app.get("/get-all-suggestions", async (req, res) => {

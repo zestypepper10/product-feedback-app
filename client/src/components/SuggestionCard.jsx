@@ -8,7 +8,7 @@ function SuggestionCard({ suggestion }) {
         <span className="suggestion-card__upvotes-label">Upvotes</span>
       </div>
       <div className="suggestion-card__content">
-        <h3 className="suggestion-card__title">{title}</h3>
+        <h2 className="suggestion-card__title">{title}</h2>
         <p className="suggestion-card__description">{description}</p>
         <span className="suggestion-card__category">{category}</span>
       </div>

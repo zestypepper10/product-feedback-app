@@ -9,8 +9,10 @@ lightweight public roadmap/feature-request board for a product team. It was buil
 
 ## 🚀 Live Site
 
-Check out the app: _pending deployment (Milestone 9) — this link will be updated once the frontend
-is live on Netlify._
+Check out the app: https://product-feedback-app-zesty.netlify.app
+
+Backend API: https://product-feedback-api-2uu4.onrender.com (note: on Render's free tier, the
+first request after a period of inactivity can take 50+ seconds while the service spins back up)
 
 ## 🖼️ Screenshots
 

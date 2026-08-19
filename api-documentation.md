@@ -1,7 +1,7 @@
 # 📘 Product Feedback API Documentation
 
 Base URL (local): `http://localhost:3000`
-Base URL (deployed): `https://REPLACE-THIS-WITH-YOUR-DEPLOYED-RENDER-URL.onrender.com`
+Base URL (deployed): `https://product-feedback-api-2uu4.onrender.com`
 
 ## Overview
 
